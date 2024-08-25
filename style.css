@@ -224,17 +224,17 @@ header{
     margin-right: 1rem;
 }
 /*Summary */
-summary{
+#advancedStatsInfo{
     text-align: center;
     width: 60%;
     margin: auto;
 }
-summary h2{
+#advancedStatsInfo h2{
     font-size: 2rem;
     color: var(--veryDarkViolet);
     margin: 6rem 0 .8rem 0;
 }
-summary p{
+#advancedStatsInfo p{
     color: var(--greyishViolet);
     font-weight:500;
     font-size: 1.2rem;
@@ -394,6 +394,9 @@ footer .attribution{
     }
     .navLinks a{
         color: white;
+    }
+    .navLinks a:hover{
+        color: var(--cyan);
     }
     nav .services{
         border-bottom: solid 1px var(--greyishViolet);
@@ -556,12 +559,12 @@ header{
 }
 
 /* Summary Mobile */
-summary{
+#advancedStatsInfo{
     text-align: center;
     width: 90%;
     margin: auto;
 }
-summary p{
+#advancedStatsInfo p{
     width: 100%;
     margin: auto;
     font-size: 1.1rem;
